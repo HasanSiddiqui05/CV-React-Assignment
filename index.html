@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <div id="root"></div>
+
+    <script>
+        const app = React.createElement(
+            "div",
+            { className: "container" },
+            [
+                React.createElement(
+                    "div",
+                    { className: "heading" },
+                    [
+                        React.createElement(
+                            "div", {},
+                            React.createElement("h1", { id: "name" }, "Hasan Shahab Siddiqui")
+                        ),
+                        React.createElement(
+                            "div",
+                            { id: "links", className: "links" },
+                            [
+                                React.createElement(
+                                    "div",
+                                    { id: "whatsapp", className: "socials" },
+                                    [
+                                        React.createElement('h3', {}, "0336-0131909"),
+                                        React.createElement('img', { src: "images/whatsapp-logo.png", alt: "WhatsApp Logo" })
+                                    ]
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { id: "email", className: "socials" },
+                                    [
+                                        React.createElement('h3', {}, "hasansiddiqui17098@gmail.com"),
+                                        React.createElement('img', { src: "images/gmail-logo.png", alt: "Email Logo" })
+                                    ]
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { id: "github", className: "socials" },
+                                    [
+                                        React.createElement('h3', {}, "https://github.com/HasanSiddiqui05"),
+                                        React.createElement('img', { src: "images/github-logo.png", alt: "GitHub Logo" })
+                                    ]
+                                )
+                            ]
+                        )
+                    ]
+                ),
+                React.createElement("div", { className: "line" }, ""),
+                React.createElement(
+                    "div",
+                    { className: "objective" },
+                    [
+                        React.createElement("h2", {}, "OBJECTIVE"),
+                        React.createElement(
+                            "p",
+                            {},
+                            "Seeking a dynamic career in Software Engineering, to gain continuous professional development, enhance technical skills, and accumulate valuable experiences. Eager to contribute my existing knowledge to the organization while dedicating myself to achieving its objectives."
+                        )
+                    ]
+                ),
+                React.createElement("div", { className: "line" }, ""),
+                
+                React.createElement(
+                    "div",
+                    { className: "content-row" },
+                    [
+                        React.createElement(
+                            "div",
+                            { className: "education" },
+                            [
+                                React.createElement("h2", {}, "EDUCATION"),
+                                React.createElement(
+                                    "div",
+                                    { className: "education-item" },
+                                    [
+                                        React.createElement("h3", {}, "Bahria University Karachi"),
+                                        React.createElement("p", {}, "Bachelor's Degree in Software Engineering"),
+                                        React.createElement("p", {}, "2022 – 2026"),
+                                        React.createElement("p", {}, "CGPA = 3.7"),
+                                        React.createElement("p", { className: "related-coursework" }, "Related Coursework: Data Structures & Algorithms, Object-Oriented Programming, Software Design and Architecture")
+                                    ]
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { className: "education-item" },
+                                    [
+                                        React.createElement("h3", {}, "PECHS Government Science College"),
+                                        React.createElement("p", {}, "Pre-Engineering (HSC)"),
+                                        React.createElement("p", {}, "2020 – 2022")
+                                    ]
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { className: "education-item" },
+                                    [
+                                        React.createElement("h3", {}, "Iqra Bright Star Grammar School"),
+                                        React.createElement("p", {}, "Science (SSC)"),
+                                        React.createElement("p", {}, "2018 – 2020")
+                                    ]
+                                )
+                            ]
+                        ),
+                        React.createElement("div", {className: "Vertical-Line"}, ""),
+                        React.createElement(
+                            "div",
+                            { className: "skills" },
+                            [
+                                React.createElement("h2", {}, "SKILLS"),
+                                React.createElement(
+                                    "div",
+                                    { className: "skills-item" },
+                                    [
+                                        React.createElement("h3", {}, "Programming Languages"),
+                                        React.createElement("p", {}, "C#, Java, Python, JavaScript")
+                                    ]
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { className: "skills-item" },
+                                    [
+                                        React.createElement("h3", {}, "Development Tools"),
+                                        React.createElement("p", {}, "Git, Visual Studio Code")
+                                    ]
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { className: "skills-item" },
+                                    [
+                                        React.createElement("h3", {}, "Web Development"),
+                                        React.createElement("p", {}, "HTML/CSS, JavaScript, Node.js, Express.js, ASP.NET")
+                                    ]
+                                ),
+                                React.createElement(
+                                    "div",
+                                    { className: "skills-item" },
+                                    [
+                                        React.createElement("h3", {}, "Database Technologies"),
+                                        React.createElement("p", {}, "Microsoft SQL Server, MongoDB, Firebase")
+                                    ]
+                                )
+                            ]
+                        )
+                    ]
+                ),
+
+                React.createElement("div", { className: "line" }, ""),
+                React.createElement(
+                    "div",
+                    { className: "projects" },
+                    [
+                        React.createElement("h2", {}, "PROJECTS"),
+                        React.createElement(
+                            "div",
+                            { className: "project-item" },
+                            [
+                                React.createElement("h3", {}, "E-commerce Application"),
+                                React.createElement(
+                                    "p",
+                                    {},
+                                    "• The e-Commerce application, built using C# ASP .NET, features a robust backend managed with C# and a MySQL database. The frontend is designed using HTML, CSS, and JavaScript."
+                                )
+                            ]
+                        ),
+                        React.createElement(
+                            "div",
+                            { className: "project-item" },
+                            [
+                                React.createElement("h3", {}, "IoT Based Weather Monitoring System"),
+                                React.createElement(
+                                    "p",
+                                    {},
+                                    "• Developed an IoT-based weather monitoring system that collects real-time environmental data from hardware sensors and displays it on a web application built using the MERN stack. Integrated a Python-based predictive model to analyze historical data and provide future weather insights."
+                                )
+                            ]
+                        ),
+                        React.createElement(
+                            "div",
+                            { className: "project-item" },
+                            [
+                                React.createElement("h3", {}, "Café Management System"),
+                                React.createElement(
+                                    "p",
+                                    {},
+                                    "• A basic Café Management System, built in Java, is designed to digitalize and streamline the basic day-to-day operations of a café using OOP principles in NetBeans, featuring order processing, billing, inventory management, and user authentication."
+                                )
+                            ]
+                        )
+                    ]
+                )    
+            ]
+        );
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(app);
+    </script>
+</body>
+</html>
